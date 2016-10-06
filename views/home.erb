@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Home</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <p>My secret number is <%= @secret_number %>.</p>
+
+  <ul>
+  <% @class.each do |person| %>
+    <li><%= person %></li>
+  <% end %>
+  </ul>
+</body>
+</html>
