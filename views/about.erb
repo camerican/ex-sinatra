@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About Page</title>
+</head>
+<body>
+  <h1>About Page</h1>
+
+  <form method="POST" action="/about">
+  <label>Username</label><input name="username" placeholder="Enter your name" /> <input type="submit" value="Enter" />
+  </form>
+  <div id="console">
+    <%= @message %>
+  </div>
+</body>
+</html>

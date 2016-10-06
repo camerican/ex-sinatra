@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to our NYCDA Dog Shelter</title>
+  <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+  <h1>Welcome to our NYCDA Dog Shelter</h1>
+  <h3>Please adopt a puppy today</h3>
+  <h4>Gallery</h4>
+  <% @dogs.each do |dog| %>
+    <img src="img/<%= dog %>" <%= "class=\"special\"" if dog == 'dog2.jpg' %> />
+  <% end %>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+</body>
+</html>
